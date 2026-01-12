@@ -24,7 +24,7 @@ It never guesses intent and never self-initiates changes.
 
 ### Responsibilities
 
-* Expose a **gRPC API** over TLS / mTLS
+* Expose a **gRPC API** over TLS / mTLS ( TODO )
 * Own the **root of trust** (certificates, enrollment)
 * Coordinate access to system facilities:
 
