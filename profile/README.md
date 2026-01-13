@@ -193,25 +193,6 @@ Command Center
 
 ---
 
-## Trust & Security Model (High Level)
-
-* Each agent:
-
-  * Owns its CA
-  * Controls enrollment
-  * Can revoke clients
-* Command Center:
-
-  * Authenticates via certificates
-  * Has no implicit authority
-* No shared global secret
-* No IP-based trust
-* No “agent discovery” magic
-
-Trust is **explicit, local, and revocable**.
-
----
-
 ## What Paradigm Is Optimized For
 
 * Determinism over convenience
